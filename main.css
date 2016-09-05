@@ -32,3 +32,11 @@ h1 {
 h1:before {
   content: "> ";
 }
+
+.signup {
+
+  font-size: 1.4rem;
+  padding-top: -2rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
