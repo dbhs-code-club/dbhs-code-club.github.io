@@ -1,14 +1,18 @@
 body {
+  font-family: sans-serif;
+}
+.container {
   margin: 0 auto;
   padding: 0.5rem;
   max-width: 50em;
-
-  font-family: sans-serif;
 }
 
 @media (min-width: 400px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   body {
-    padding: 1rem;
     padding-bottom: 2rem;
   }
 }
