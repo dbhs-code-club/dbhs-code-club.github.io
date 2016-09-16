@@ -44,3 +44,7 @@ h1:before {
   padding-bottom: 3rem;
   text-align: center;
 }
+
+.update + .update {
+  margin-top: 2em;
+}
