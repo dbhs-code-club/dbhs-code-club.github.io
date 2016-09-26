@@ -33,8 +33,24 @@ h1 {
 
   text-align: center;
 }
+
 h1:before {
   content: "> ";
+}
+
+.navbar {
+  font-size: 1.2rem;
+  padding: 0;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+.navbar li a {
+  text-decoration: none;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 1em;
 }
 
 .signup {
@@ -48,3 +64,4 @@ h1:before {
 .update + .update {
   margin-top: 2em;
 }
+
