@@ -39,12 +39,31 @@ h1:before {
 }
 
 .navbar {
-  font-size: 1.2rem;
   padding: 0;
+  font-size: 1.1rem;
 }
 .navbar li {
   list-style-type: none;
   display: inline-block;
+}
+@media screen (min-width: 400px) {
+  .navbar li {
+    font-size: 1.2rem;
+  }
+  .navbar li:first-of-type {
+    margin-left: 0.5rem;
+    margin-right: 1.5rem;
+  }
+}
+/* todo: for some reason, this block doesn't work right now */
+@media screen (max-width: 399px) {
+  .nav-signup {
+    display: block;
+    color: #6ab0cf;
+    width: 100%;
+    text-align: center;
+    
+  }
 }
 .navbar li a {
   text-decoration: none;
@@ -53,13 +72,6 @@ h1:before {
   padding-right: 1em;
 }
 
-.signup {
-
-  font-size: 1.4rem;
-  padding-top: -2rem;
-  padding-bottom: 3rem;
-  text-align: center;
-}
 
 .update + .update {
   margin-top: 2em;
