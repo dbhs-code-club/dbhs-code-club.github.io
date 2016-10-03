@@ -1,1 +1,1 @@
-browser-sync start --server --files="." --port=3001
+browser-sync start --server --files="." --port=3001 --no-open
