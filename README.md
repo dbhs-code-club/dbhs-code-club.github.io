@@ -1,1 +1,1 @@
-![Code Club: Build. Learn. Hack.](img/CcPoster-dark.png)
+![Code Club: Build. Learn. Hack.](img/ccPoster-dark.png)
