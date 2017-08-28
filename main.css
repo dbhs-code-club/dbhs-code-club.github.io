@@ -1,6 +1,11 @@
+/*Global*/
+
 body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
 .container {
   margin: 0 auto;
   padding: 0.5rem;
@@ -8,44 +13,36 @@ body {
 }
 
 @media (min-width: 400px) {
+  body {
+    padding-bottom: 2rem;
+  }
   .container {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  body {
-    padding-bottom: 2rem;
-  }
 }
 
-
-h1,h2,h3,h4,h5,h6 {
- font-family: "Ubuntu Mono", monospace;
- font-weight: normal;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Mono", monospace;
 }
+
 a {
   color: #6ab0cf;
 }
 
 
-h1 {
-  padding-top: 3em;
-  padding-bottom: 3em;
-
-  text-align: center;
-}
-
-h1:before {
-  content: "> ";
-}
+/*Header*/
 
 .navbar {
   padding: 0;
   font-size: 1.1rem;
 }
+
 .navbar li {
   list-style-type: none;
   display: inline-block;
 }
+
 @media screen (min-width: 400px) {
   .navbar li {
     font-size: 1.2rem;
@@ -55,16 +52,17 @@ h1:before {
     margin-right: 1.5rem;
   }
 }
-/* todo: for some reason, this block doesn't work right now */
+
 @media screen (max-width: 399px) {
+  /* todo: for some reason, this block doesn't work right now */
   .nav-signup {
     display: block;
     color: #6ab0cf;
     width: 100%;
     text-align: center;
-    
   }
 }
+
 .navbar li a {
   text-decoration: none;
   padding-top: 1em;
@@ -72,8 +70,28 @@ h1:before {
   padding-right: 1em;
 }
 
-
-.update + .update {
+.update+.update {
   margin-top: 2em;
 }
 
+
+/*Hero*/
+
+.hero-container {
+  background-color: #212121;
+  height: 30vh;
+  min-width: 350px;
+  color: #fff;
+}
+
+.hero-container h1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 350%;
+  text-align: center;
+}
+
+.hero-container h1:before {
+  content: "> ";
+  color: #3bff05;
+}
