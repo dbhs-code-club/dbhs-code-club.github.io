@@ -9,7 +9,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 0.5rem;
-  max-width: 50em;
+  max-width: 70em;
 }
 
 @media (min-width: 400px) {
@@ -64,6 +64,8 @@ a {
 }
 
 .navbar li a {
+  font-family: "Roboto Mono", monospace;
+  color: #000;
   text-decoration: none;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -79,16 +81,14 @@ a {
 
 .hero-container {
   background-color: #212121;
-  height: 30vh;
   min-width: 350px;
   color: #fff;
+  margin: 0 0 1em 0;
+  padding: 1em 0 1em 0;
 }
 
 .hero-container h1 {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  font-size: 350%;
-  text-align: center;
+  font-size: 500%;
 }
 
 .hero-container h1:before {
