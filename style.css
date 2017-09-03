@@ -162,7 +162,7 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
-[class^="container-"]:last-child {
+[class^="container-"] {
   margin: 0 auto;
 }
 
