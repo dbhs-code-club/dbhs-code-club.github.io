@@ -1,0 +1,45 @@
+/*Hero*/
+
+#home-hero {
+  background-color: #212121;
+  color: #fff;
+}
+
+.hero-container h1 {
+  font-size: 500%;
+}
+
+.hero-container h1:before {
+  content: "> ";
+  color: #3bff05;
+  /* #c700ff */
+}
+
+
+/*Introduction*/
+
+#intro {
+  text-align: justify;
+}
+
+#intro .container {
+  max-width: 50em;
+  padding: 1.5em 0.5em 0 0.5em;
+}
+
+#intro a {
+  color: #c700ff;
+}
+
+#intro img {
+  display: block;
+  margin: auto;
+  width: 40%;
+  padding: 3em;
+}
+
+#intro h3 {
+  text-align: center;
+  border: 2px;
+  border-style: solid;
+}

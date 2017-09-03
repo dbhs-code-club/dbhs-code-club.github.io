@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+a {
+  color: #ff5e7b;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0.5rem;
+  max-width: 75em;
+}
+
+.hero-container {
+  min-width: 350px;
+  padding: 1em 0 1em 0;
+}
+
+.line {
+  height: 3px;
+  width: 30%;
+  background-color: #202020;
+  border: none;
+  margin: 5em auto;
+}
+
+
+/*Header*/
+
+.navbar {
+  padding: 0;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.navbar li a {
+  font-family: "Roboto Mono", monospace;
+  color: #000;
+  text-decoration: none;
+  padding: 1em 1em 1em 1em;
+}
+
+.update+.update {
+  margin-top: 2em;
+}
+
+
+
+
+
+/*MEDIA QUERY: Mobile*/
+
+@media (max-width: 400px) {
+  body {
+    padding-bottom: 2rem;
+  }
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .navbar li {
+    font-size: 1.2rem;
+  }
+  .navbar li:first-of-type {
+    margin-left: 0.5rem;
+    margin-right: 1.5rem;
+  }
+}
