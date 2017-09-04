@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  margin: 0 15px;
+  margin: 0;
   padding: 0.6em 0;
 }
 
@@ -260,6 +260,8 @@ img.major {
 /* Text */
 
 .title-hero-cl {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
   font-size: 500%;
 }
 
@@ -269,8 +271,12 @@ img.major {
   /* #c700ff */
 }
 
-h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 200%;
 }
 
 p {
@@ -281,6 +287,12 @@ p {
 
 a {
   color: #e284ff;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 1.5em;
 }
 
 .update+.update {
